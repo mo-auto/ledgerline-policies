@@ -1,0 +1,1 @@
+@id("block-suspicious") forbid (principal, action, resource) when { context has fraud_indicators && context.fraud_indicators.contains("prompt_injection") };
