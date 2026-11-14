@@ -1,0 +1,1 @@
+@id("block-export") forbid (principal, action == Jans::Action::"Share", resource);
