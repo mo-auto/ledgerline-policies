@@ -12,7 +12,7 @@ namespace Jans {
   };
 
   type TokensContext = {
-    ledgerline_access_token?: Access_token,
+    jans_access_token?: Access_token,
     total_token_count: Long
   };
 
