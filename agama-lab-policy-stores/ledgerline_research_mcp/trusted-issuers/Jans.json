@@ -1,0 +1,31 @@
+{
+    "id": "6841d3f39b3d7f5b2dc09a508369250f6524896071f2",
+    "name": "Jans",
+    "description": "ledger-demo (Janssen/Flex) authorization server for Ledgerline",
+    "configuration_endpoint": "https://ledger-demo.gluu.info/.well-known/openid-configuration",
+    "token_metadata": {
+        "access_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Access_token",
+            "token_id": "jti",
+            "required_claims": [
+                "jti",
+                "iss",
+                "aud",
+                "sub",
+                "exp",
+                "nbf"
+            ]
+        },
+        "id_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::id_token",
+            "token_id": "jti"
+        },
+        "userinfo_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Userinfo_token",
+            "token_id": "jti"
+        }
+    }
+}
